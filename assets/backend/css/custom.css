@@ -1,0 +1,324 @@
+/* REPLACE */
+
+.card-img-overlay {
+  bottom: auto !important;
+  background-color: #0000002e !important;
+}
+
+/* Loading progress */
+
+#progressMessage {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #00000012;
+  z-index: 99999;
+ }
+
+ #activityIndicator {
+   top: 49%;
+    left: 49%;
+    position: absolute;
+   height: 32px;
+   width: 32px;
+   -webkit-background-size: 32px 32px;
+   -o-background-size: 32px 32px;
+   -moz-background-size: 32px 32px;
+   background-size: 32px 32px;
+   background-image: url("../img/activity_indicator.gif");
+   background-color: transparent;
+
+}
+/* UPLOAD IMG */
+
+
+.upload-card{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.upload-img{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* THEME CARD PREV */
+
+.theme-card{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.theme-img{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* SWITCH FREEBIES */
+
+.onoffswitch {
+  position: relative; width: 90px;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #FFFFFF; border-radius: 20px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: "Tentu";
+  padding-left: 10px;
+  background-color: #3877FF; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+  content: "Tidak";
+  padding-right: 10px;
+  background-color: #EEEEEE; color: #999999;
+  text-align: right;
+}
+.onoffswitch-switch {
+  display: block; width: 18px; margin: 6px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 56px;
+  border: 2px solid #FFFFFF; border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+/**
+* FilePond Custom Styles
+*/
+.filepond--drop-label {
+  color: #4c4e53;
+}
+
+.filepond--label-action {
+  text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+  border-radius: 2em;
+  background-color: #edf0f4;
+  height: 1em;
+}
+
+.filepond--item-panel {
+  background-color: #595e68;
+}
+
+.filepond--drip-blob {
+  background-color: #7f8a9a;
+}
+
+
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7.5px;
+  height: 7.5px;
+  cursor: pointer;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0061f2;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0061f2;
+  opacity: 0.9;
+  cursor: pointer !important;
+}
+
+
+/* CSS CUSTOM */.btn-buat{
+margin: 0 20px;
+margin-top: 20px;
+}
+
+.card-kategori, .card-kategori:hover{
+  text-decoration: none;
+  color: #687281;
+}
+
+.card-kategori:hover{
+  color: #a2acba !important;
+}
+
+/* .bg-cs{
+background-image: url("../img/bg.jpg");
+background-size: 200% 200%;
+overflow: hidden;
+} */
+
+.selected-theme{
+  border: 2px solid #0c5adb;
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 15%) !important;
+}
+
+.font-size-4r{
+  font-size: 4rem;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*C:\Users\mahendradwipurwanto\AppData\Roaming\IDM*/
+.hide{
+  display: none !important;
+}
+.hidden{
+  display: none !important;
+}
+.btn-buat{
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.card-kategori, .card-kategori:hover{
+  text-decoration: none;
+  color: #687281;
+}
+
+.card-kategori:hover{
+  color: #a2acba !important;
+}
+
+.no-dec{
+  text-decoration: none;
+}
+
+.no-dec:hover{
+  opacity: 50% !important;
+  text-decoration: none;
+}
+
+.bg-cs{
+  background-image: linear-gradient(45deg, #fcfcfc 25.93%, #ffffff 25.93%, #ffffff 46.30%, #fafafa 46.30%, #fafafa 50%, #fcfcfc 50%, #fcfcfc 75.93%, #ffffff 75.93%, #ffffff 96.30%, #fafafa 96.30%, #fafafa 100%);
+  /* background-size: 381.84px 381.84px; */
+  background-size: 100% 100%;
+  /* overflow: hidden; */
+}
+
+.font-size-4r{
+  font-size: 4rem;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*C:\Users\mahendradwipurwanto\AppData\Roaming\IDM*/
+
+
+.img-account-profile {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.b-pic{
+  width: 100% !important;
+  height: 250px !important;
+  margin-bottom: 10px !important;
+  overflow: hidden !important;
+}
+
+
+.alcs{
+  position: absolute;
+  right: 23px;
+  top: 18px;
+  z-index: 10;
+}
+
+.c--card {
+  background-color: #fff;
+  width: 100%;                 /* Set width of cards */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  border: 1px solid #EF9A9A;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  margin: 5px;                  /* Add space between cards */
+}
+
+.card--header {
+  color: #D32F2F;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #EF9A9A;
+  background-color: #FFEBEE;
+  padding: 5px 10px;
+}
+
+.card--main {
+  display: flex;              /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (on cross axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+}
+
+.material-icons {
+  font-size: 36px;
+  color: #D32F2F;
+  margin-bottom: 5px;
+}
+
+.main--description {
+  color: #D32F2F;
+  font-size: 12px;
+  text-align: center;
+}
+
+.text-none{
+  text-decoration: none !important;
+}
+
+.text-none:hover{
+  text-decoration: none !important;
+}
